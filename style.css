@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+  
     
 }
 
@@ -14,6 +15,8 @@ body {
     justify-content: space-between;
     background-color: #F3F3F3;
     border-bottom: 10px solid #D3D3D3;
+    height: 150px;
+    margin-bottom: 40px;
     
 }
 img {
@@ -48,6 +51,9 @@ p {
 .imagenPelota {
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+    height: 150px;
+    width: 200px;
+    display: flex;
 }
 
 em {
@@ -60,10 +66,9 @@ em {
 }
 
 .textointro  {
-    margin-left: 150px;
     padding: 10px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 30px;
     background-color: white;
     border: 2px solid gray;
     border-radius: 10px;
@@ -76,6 +81,7 @@ ul {
     margin-left: 40px;
     border: 2px solid gray;
     border-radius: 10px;
+    margin-right: 96px;
 }
 
 .borde {
@@ -115,7 +121,6 @@ ul {
 }
 
 .contenido {
-    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -138,10 +143,13 @@ ul {
 .imagenCategoria {
     height: 80px;
     width: 100px;
-    
+    mix-blend-mode: multiply;
     filter: brightness(1.1);
     
+
 }
+
+
 p5 {
     text-align: center;
 }
@@ -177,8 +185,46 @@ p5 {
     border: 2px solid gray;
 }
 
+
+
 .final {
-    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
 }
 
-p2 {}
+.agradecimientos {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.fondoGrande {
+    background-color: #DED7D7;
+    padding: 30px;
+}
+
+.fondoFinal{
+    background-color: #DED7D7;
+    padding-left: 78px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+.fondoTutorial {
+    padding: 60px;
+    padding-left: 85px;
+    background-color: #DED7D7;
+    padding-right: 85px;
+}
+
+.fondoIntro {
+     
+   background-color: #DED7D7;
+   padding-left: 53px;
+   padding-right: 53px;
+   padding-top: 40px;
+}
