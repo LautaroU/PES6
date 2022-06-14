@@ -1,0 +1,184 @@
+body {
+    background-image: url(https://www.chilenieve.com/wp-content/uploads/2018/08/9E0DAAEB-2259-4F57-AB9F-8BFCAA4B14EB-696x464.jpeg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.head {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    border-bottom: 10px solid #D3D3D3;
+    
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.copaMundo {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 135px;
+    width: 135px;
+}
+
+p {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.titulo {
+    background-color: #FCDC27;
+    padding: 10px;
+    border: 10px double #001FD1;
+    
+  
+}
+.lawikipalos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenPelota {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+em {
+    font-size: 25px;
+}
+
+.cuerpo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.textointro  {
+    margin-left: 150px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+ul {
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    margin-left: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.borde {
+    border-top: 1px double gray;
+    padding-top: 5px;
+}
+
+.sobretitulo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textin {
+    margin-top: 10px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.segunda {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.sobretituloContenido {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.escudo {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 170px;
+    width: 170px;
+}
+
+.contenido {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajon {
+    display: flex;
+
+}
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #D6D6D6;
+    border: 2px solid gray;
+    border-radius: 10px;
+    
+}
+.imagenCategoria {
+    height: 80px;
+    width: 100px;
+    
+    filter: brightness(1.1);
+    
+}
+p5 {
+    text-align: center;
+}
+
+.escudo2 {
+    padding-top: 50px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 170px;
+    width: 170px;
+    
+    
+
+}
+
+.escudoBoca {
+    padding-top: 50px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 170px;
+    width: 170px;
+    padding-left: 20px;
+
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-right: 130px;
+    border: 2px solid gray;
+}
+
+.final {
+    padding-top: 40px;
+}
+
+p2 {}
