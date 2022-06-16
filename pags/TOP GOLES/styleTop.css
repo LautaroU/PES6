@@ -1,0 +1,134 @@
+body {
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/06/22175254/Por-que-las-pelotas-de-futbol-son-blancas-y-negras-Informe.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.encabezado {
+    
+    background-color: black;
+   
+}
+
+.boton_inicio {
+    display: flex;
+    height: 55px;
+    width: 200px;
+}
+
+.foto_inicio {
+    display: flex;
+    height: 55px;
+    width: 200px;
+
+}
+
+.fondo {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cuerpo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #393939;
+    height: 2000px;
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.cuadrante_titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #929191;
+    height: 120px;
+    width: 950px;
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid #DADADA;
+}
+
+.foto_copa{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.titulo_goles {
+    display: flex;
+    align-items: center;
+    color: #FACD00;
+}
+
+.cuadrante2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 625px;
+    width: 950px;
+    background-color: #929191;
+    border: 1px solid #DADADA;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_texto {
+    display: flex;
+    flex-direction: row;
+}
+.texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+p1 {
+    color: #FACD00;
+}
+.fotoCostado {
+    flex-direction: column;
+    margin: 10px;
+    display: flex;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: #DFDEDE;
+}
+
+.cuadrante3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 680px;
+    width: 950px;
+    background-color: #929191;
+    border: 1px solid #DADADA;
+}
+
