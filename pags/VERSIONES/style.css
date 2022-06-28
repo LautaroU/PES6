@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: start;
     background-color: #393939;
-    height: 650px;
+    height: 1850px;
     width: 1000px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -77,17 +77,28 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    height: 425px;
+    height: 1625px;
     width: 950px;
     background-color: #929191;
     border: 1px solid #DADADA;
 }
 
 p {
-    margin: 10px
-    
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
 }
 
-p1 {
-    font-size: 25px;
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arbitro {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }

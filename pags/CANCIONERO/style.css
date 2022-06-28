@@ -1,13 +1,96 @@
 body {
-    background-color: white;
-    display: flex;
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/06/22175254/Por-que-las-pelotas-de-futbol-son-blancas-y-negras-Informe.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.encabezado {
     
-    align-items: center;
-    justify-content: center;
+    background-color: black;
+   
+}
+
+.boton_inicio {
+    display: flex;
+    height: 55px;
+    width: 200px;
+}
+
+.foto_inicio {
+    display: flex;
+    height: 55px;
+    width: 200px;
+
 }
 
 .fondo {
-    background-color: gray;
-    width: 40px;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+
+
 }
+
+.cuerpo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #393939;
+    height: 2000px;
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.cuadrante_titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #929191;
+    height: 120px;
+    width: 950px;
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid #DADADA;
+}
+
+.foto_copa{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.titulo_goles {
+    display: flex;
+    align-items: center;
+    color: #FACD00;
+}
+
+.cuadrante2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 2000px;
+    width: 950px;
+    background-color: #929191;
+    border: 1px solid #DADADA;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.canciones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+

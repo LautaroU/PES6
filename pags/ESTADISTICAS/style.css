@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: start;
     background-color: #393939;
-    height: 650px;
+    height: 1380px;
     width: 1000px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -77,17 +77,99 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    height: 425px;
+    height: 1150px;
     width: 950px;
     background-color: #929191;
     border: 1px solid #DADADA;
 }
 
-p {
-    margin: 10px
-    
+.ivan {
+    display: flex;
+    justify-content: space-around;
 }
 
-p1 {
-    font-size: 25px;
+
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 190px;
+    margin: 20px;
+}
+
+
+.fotoStats {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
+}
+.lucas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.foto1 {
+    display: flex;
+    flex-direction: row;
+    height: 245px;
+    width: 190px;
+    margin: 20px;
+}
+
+.fotoStats1 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.bachio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto2 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 190px;
+    margin: 20px;
+}
+
+.fotoStats2 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.yo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto3 {
+    display: flex;
+    flex-direction: row;
+    height: 245px;
+    width: 190px;
+    margin: 20px;
+}
+
+.fotoStats3 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px;
+    justify-content: center;
 }
