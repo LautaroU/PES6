@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: start;
     background-color: #393939;
-    height: 2000px;
+    height: 4200px;
     width: 1000px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -77,7 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    height: 2000px;
+    height: 3980px;
     width: 950px;
     background-color: #929191;
     border: 1px solid #DADADA;
@@ -94,3 +94,27 @@ p {
     flex-direction: column;
 }
 
+.foto {
+    margin: 11px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.gol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+}
+
+.cancionList {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
